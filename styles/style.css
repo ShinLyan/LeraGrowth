@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #221e22;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+
+  border: 1px solid red;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+
+  margin-top: 45px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  color: #cd5a32;
+  font-size: 30px;
+
+  margin-right: 140px;
+}
+
+.nav {
+  display: flex;
+
+  gap: 67px;
+
+  font-weight: 600;
+  list-style-type: none;
+  margin-right: 71px;
+}
+
+.nav-item::after {
+  content: url("../images/arrow.svg");
+  margin-left: 10px;
+}
+
+.nav a {
+  color: #221e22;
+  text-decoration: none;
+}
+
+.dark-theme {
+}
+
+.toggle-theme {
+  margin-right: 150px;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.sign-in-button {
+  background: #f18661;
+  padding: 16px 12px;
+  border: none;
+  border-radius: 12px;
+
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.registration-button {
+  padding: 16px 12px;
+
+  background-color: white;
+  border: 1px solid #f18661;
+  border-radius: 12px;
+
+  font-weight: 600;
+  font-size: 18px;
+  color: #f18661;
+}
+
+.main {
+  position: relative;
+
+  margin: 200px auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.main-heading {
+  max-width: 812px;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 108px;
+}
+
+.main-text {
+  max-width: 750px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #686468;
+}
+
+.main-button {
+  padding: 16px 11px;
+
+  max-width: 157px;
+  background-color: #f18661;
+  border-radius: 12px;
+  border: none;
+
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.main-img {
+  position: absolute;
+  right: 0;
+}
+
+.about-us {
+  background-image: url("../images/dotGrid.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #f18661;
+
+  padding-top: 70px;
+  padding-bottom: 110px;
+
+  color: white;
+}
+
+.about-us h3 {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.about-us-heading {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  gap: 143px;
+
+  text-align: center;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon-wrapper {
+  display: flex;
+  justify-content: center;
+
+  background-color: #cd5a32;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+}
+
+.step-icon {
+}
+
+.step-heading {
+  font-size: 18px;
+  height: 54px;
+}
+
+.step-content {
+  font-size: 16px;
+  width: 337px;
+}
