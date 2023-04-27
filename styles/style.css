@@ -164,7 +164,7 @@ button {
 
 .main-button {
 	padding: 16px 11px;
-	max-width: 157px;
+	width: 157px;
 }
 
 .main-img {
@@ -204,7 +204,6 @@ button {
 
 	text-align: center;
 	position: relative;
-	border: 1px solid red;
 }
 
 .line {
@@ -230,9 +229,6 @@ button {
 	border-radius: 50%;
 	width: 90px;
 	height: 90px;
-}
-
-.step-icon {
 }
 
 .step-heading {
@@ -527,4 +523,296 @@ button {
 	font-size: 20px;
 	color: #686468;
 	max-width: 192px;
+}
+
+@media (max-width: 576px) {
+	.container {
+		width: 85%;
+	}
+
+	.logo {
+		font-size: 20px;
+	}
+
+	.nav,
+	.dark-theme,
+	.buttons {
+		display: none;
+	}
+
+	.main {
+		position: initial;
+		margin-bottom: 36px;
+	}
+
+	.main-dot-grid {
+		right: 5%;
+		top: 5%;
+		width: 90px;
+	}
+
+	.main-img {
+		top: 12%;
+		left: 20%;
+		width: 250px;
+	}
+
+	.main-heading {
+		font-size: 34px;
+		line-height: 51px;
+	}
+
+	.main-text {
+		font-size: 14px;
+		line-height: 21px;
+	}
+
+	.main-button {
+		width: 100%;
+		padding: 16px;
+		font-size: 14px;
+	}
+
+	.about-us {
+		padding-top: 25px;
+		padding-bottom: 50px;
+	}
+
+	.about-us-heading {
+		font-size: 30px;
+	}
+
+	.about-us h3 {
+		font-size: 16px;
+		margin-bottom: 25px;
+	}
+
+	.steps {
+		flex-direction: column;
+		gap: 30px;
+
+		text-align: center;
+		position: relative;
+	}
+
+	.line {
+		display: none;
+	}
+
+	.step {
+		gap: 15px;
+	}
+
+	.step-heading {
+		font-size: 16px;
+		line-height: 25px;
+		width: 180px;
+	}
+
+	.step-content {
+		font-size: 14px;
+		line-height: 22px;
+	}
+
+	.services {
+		gap: 30px;
+		padding: 25px 0 40px 0;
+	}
+
+	.heading {
+		font-size: 30px;
+		text-align: initial;
+	}
+
+	.service-cards {
+		gap: 25px;
+		flex-wrap: wrap;
+	}
+
+	.service-card {
+		position: relative;
+		width: 100%;
+		padding: 15px;
+	}
+
+	.card-img {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+
+	.card-category {
+		font-size: 12px;
+		margin-bottom: 15px;
+	}
+
+	.card-heading {
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+
+	.card-content {
+		font-size: 16px;
+		line-height: 24px;
+		margin-bottom: 30px;
+	}
+
+	.card-price {
+		font-size: 20px;
+	}
+
+	.card-button {
+		position: absolute;
+		right: 15px;
+		bottom: 15px;
+
+		font-size: 14px;
+		padding: 8px 26px;
+	}
+
+	.services-button {
+		display: none;
+	}
+
+	.employees {
+		padding: 20px 0;
+	}
+
+	.employees-dot-grid {
+		display: none;
+	}
+
+	.employees-wrapper {
+		flex-direction: column;
+		gap: 20px;
+		margin-top: 30px;
+	}
+
+	.employee {
+		width: 100%;
+		padding: 20px;
+	}
+
+	.employee-name {
+		margin-top: 10px;
+		margin-bottom: 7px;
+		font-size: 18px;
+	}
+
+	.employee-position {
+		font-size: 16px;
+	}
+
+	.scrolls {
+		margin-top: 45px;
+	}
+
+	.reviews {
+		padding: 30px 0;
+	}
+
+	.reviews-dot-grid {
+		display: none;
+	}
+
+	.reviews-wrapper {
+		flex-direction: column;
+		gap: 25px;
+		margin-top: 30px;
+	}
+
+	.review {
+		flex-direction: column;
+		gap: 15px;
+		padding: 20px 15px;
+		width: 100%;
+	}
+
+	.review-content {
+		gap: 15px;
+	}
+
+	.reviewer {
+		font-size: 18px;
+	}
+
+	.review-text {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.submit {
+		margin: 0;
+		margin-top: 50px;
+		padding: 50px 0 30px 0;
+		border-radius: 0;
+	}
+
+	.form {
+		gap: 40px;
+	}
+
+	.form-heading {
+		font-size: 30px;
+	}
+
+	.input-wrapper {
+		flex-direction: column;
+		gap: 25px;
+		width: 85%;
+	}
+
+	.input {
+		padding: 10px;
+		width: 100%;
+		font-weight: 400;
+		font-size: 16px;
+	}
+
+	.form-button {
+		width: 100%;
+		height: 44px;
+		font-size: 14px;
+	}
+
+	/* Footer */
+	.footer-wrapper {
+		background-color: #fff6f2;
+	}
+
+	.footer {
+		flex-direction: column;
+		padding: 30px 0;
+	}
+
+	.contacts {
+		gap: 20px;
+	}
+
+	.contacts-content {
+		width: 100%;
+		font-size: 14px;
+	}
+
+	.social {
+		justify-content: flex-start;
+		align-items: center;
+		gap: 30px;
+	}
+
+	.social > img {
+		width: 32px;
+	}
+
+	.social > div {
+		width: 32px;
+		height: 32px;
+	}
+
+	.social > div img {
+		width: 32px;
+	}
+
+	.footer-services {
+		display: none;
+	}
 }
